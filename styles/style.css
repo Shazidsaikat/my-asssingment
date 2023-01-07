@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Work Sans';
+
 }
 
 /* This section contains detail about bg image and texts */
@@ -53,27 +55,120 @@
     border-radius: 5px;
 }
 
-/* 2nd row elements and also I added a color in bg which was not presented in my assingment file */
-section {
+/* 2nd row elements and also I added a color in bg which was not included in my assingment file */
+.failures {
     background-image: url(/images/person.png);
     background-repeat: no-repeat;
-    background-color:white;  
+
+    background-color: #F15B22;
     width: 1500px;
-    
+
     height: 723.3px;
-     left: 206px;
-     top: 929px;
-     padding: 50;
+    left: 206px;
+    top: 929px;
+    padding: 50;
 }
 
 .types {
+    color: #FFFFFF;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-align: right;
-    padding: 200;
-    padding-right: 300;
-    margin-top: 100;
+    padding: 50;
+    padding-right: 400;
+    margin-top: 200;
 }
+
+.details {
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 400;
+    font-family: 'Work Sans';
+    text-align: reverse;
+    box-sizing: border-box;
+    border-radius: 50;
+    padding-block: 20;
+
+
+}
+
+.elements {
+
+    color: bisque;
+    font-display: block;
+    margin-top: 20;
+    text-align: right;
+    padding: 5;
+    padding-right: 600;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    flex-direction: row-reverse;
+}
+
+/* this section belongs to icons */
+.plan {
+    width: 1400px;
+    height: 50;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50;
+    margin-right: 100;
+    
+}
+
+.resource {
+
+    font-family: 'Work Sans';
+    width: 1600px;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+    padding-left: 250;
+    gap: 100px;
+    border-bottom: #151414;
+    border-radius: 10;
+}
+
+.nd-last-sec {
+    margin-left: 100;
+    border: #151414;
+    width: 1400px;
+    height: 300px;
+    background-image: url(/images/gradient2.png);
+    background-image: url(/images/watch.png);
+    background-blend-mode: difference;
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    mix-blend-mode: color-dodge;
+
+}
+.my-sayings{
+    padding: 1em;
+
+    text-align: left;
+}
+.call{  width: 100px;
+    height: 50px;
+    color:#F15B22 ;
+    background:#FFFFFF;
+    align-content: center;
+    margin-top: 20;
+    border-style: hidden;
+    border-radius: 5px;
+    font: bold;
+    margin-left: 100;
+}
+    
