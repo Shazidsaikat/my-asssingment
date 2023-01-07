@@ -1,4 +1,79 @@
-.frist-templete{
-    color: blue;
-    text-align: center;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* This section contains detail about bg image and texts */
+.tempo {
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+    background-image: url(/images/banner/banner2.png);
+    background-repeat: no-repeat
+}
+
+.tempo-items {
+    box-sizing: border-box;
+    color: #151414;
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 65px;
+    opacity: 1;
+    text-align: right;
+    padding: 50;
+    padding-top: 200;
+    padding-right: 400;
+    line-height: 76px;
+
+
+}
+
+.pera-content {
+
+    text-align: right;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    box-sizing: 240;
+    padding-right: 400;
+
+}
+
+.pera-nai {
+    width: 160px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #F15B22;
+    align-content: center;
+    margin-top: 20;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+/* 2nd row elements and also I added a color in bg which was not presented in my assingment file */
+section {
+    background-image: url(/images/person.png);
+    background-repeat: no-repeat;
+    background-color:white;  
+    width: 1500px;
+    
+    height: 723.3px;
+     left: 206px;
+     top: 929px;
+     padding: 50;
+}
+
+.types {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: right;
+    padding: 200;
+    padding-right: 300;
+    margin-top: 100;
 }
