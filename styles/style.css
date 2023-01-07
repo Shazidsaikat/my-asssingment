@@ -11,7 +11,7 @@
     height: 809px;
     left: 1600px;
     top: 0px;
-    background-image: url(/images/banner/banner2.png);
+    background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat
 }
 
@@ -57,7 +57,7 @@
 
 /* 2nd row elements and also I added a color in bg which was not included in my assingment file */
 .failures {
-    background-image: url(/images/person.png);
+    background-image: url(../images/person.png);
     background-repeat: no-repeat;
 
     background-color: #F15B22;
@@ -141,8 +141,8 @@
     border: #151414;
     width: 1400px;
     height: 300px;
-    background-image: url(/images/gradient2.png);
-    background-image: url(/images/watch.png);
+    background-image: url(../images/gradient2.png);
+    background-image: url(../images/watch.png);
     background-blend-mode: difference;
     background-size: cover;
     background-position: initial;
