@@ -96,18 +96,17 @@
 }
 
 .elements {
-
-    color: bisque;
-    font-display: block;
-    margin-top: 20;
     text-align: right;
+    color: bisque;
+    margin-top: 20;
     padding: 5;
     padding-right: 400;
     font-family: 'Work Sans';
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    flex-direction: row-reverse;
+    list-style-type: "\2713";
+    
 }
 
 /* this section belongs to icons */
@@ -173,9 +172,8 @@
 }
     
 .end{  
-    width: 1600px;
-    height: 400px;
-    margin-top: 100px;
+    width: 1500px;
+    height: 380px;
     background-color: #151414;
     color: #FFFFFF;
 
@@ -188,8 +186,9 @@
 .end-sub{
     display: flex;
     gap: 500px;
-    padding-top: 80;
+    padding-top: 30px;
     padding-bottom: 20;
+
 }
 .info{
     
@@ -202,10 +201,5 @@
     text-align: left;
 }
 
-.items{
-    text-align: inherit;
-    justify-content: space-around;
-    justify-items: flex-start;
-    
-    
-}
+
+ }
